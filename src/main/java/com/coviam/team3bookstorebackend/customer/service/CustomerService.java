@@ -8,4 +8,6 @@ public interface CustomerService {
     Customer save(Customer customer);
 
     Optional<Customer> getCustomer(String customer_id);
+
+    Iterable<Customer> findAll();
 }

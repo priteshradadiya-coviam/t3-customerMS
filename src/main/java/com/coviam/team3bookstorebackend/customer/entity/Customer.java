@@ -3,17 +3,19 @@ package com.coviam.team3bookstorebackend.customer.entity;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name="Customer")
 @Getter
+@ToString
 @Setter
 public class Customer
 {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    //@GeneratedValue(strategy = GenerationType.AUTO)
     private String customer_id;
     private String email;
     private String customer_name;
