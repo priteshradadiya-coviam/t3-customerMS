@@ -8,10 +8,10 @@ import lombok.Setter;
 @Setter
 public class CustomerDTO
 {
-    private String customer_id;
-    private String email;
-    private String customer_name;
-    private String phone_no;
-    private String address;
+    private String customerId;
+    private String customerEmail;
+    private String customerName;
+    private String customerPhoneNumber;
+    private String customerAddress;
     private String pincode;
 }

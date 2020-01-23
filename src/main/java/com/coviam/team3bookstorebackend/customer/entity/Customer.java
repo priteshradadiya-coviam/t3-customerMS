@@ -16,11 +16,12 @@ public class Customer
 {
     @Id
     //@GeneratedValue(strategy = GenerationType.AUTO)
-    private String customer_id;
-    private String email;
-    private String customer_name;
-    private String phone_no;
-    private String address;
+
+    private String customerId;
+    private String customerEmail;
+    private String customerName;
+    private String customerPhoneNo;
+    private String customerAddress;
     private String pincode;
 
 }

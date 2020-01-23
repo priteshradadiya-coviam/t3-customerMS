@@ -10,4 +10,6 @@ public interface CustomerService {
     Optional<Customer> getCustomer(String customer_id);
 
     Iterable<Customer> findAll();
+
+    String getEmail(String customer_id);
 }

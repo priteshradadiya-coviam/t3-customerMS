@@ -30,4 +30,9 @@ public class CustomerServiceImpl implements CustomerService
         return customerRepositery.findById(customer_id);
     }
 
+    @Override
+    public String getEmail(String customer_id) {
+       Customer customer= customerRepositery.findById(customer_id).get();
+       return customer.getCustomerEmail();
+    }
 }
